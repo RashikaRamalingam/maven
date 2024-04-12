@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Run') { 
             steps {
-                bat 'java -cp target/classes com.example.bubblesort.BubbleSort'
+                bat 'java -cp target/classes com.example.BubbleSort'
             }
         }
     }
