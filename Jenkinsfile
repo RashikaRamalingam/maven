@@ -5,10 +5,10 @@ pipeline {
         stage('Build') {
             steps {
                 // Checkout the code from your Git repository
-                bat 'git https://github.com/Rsowmya26/maven.git'
+                bat 'git clone https://github.com/Rsowmya26/maven.git'
                 
                 // Build the Maven project
-                bat 'mvn clean package'
+                bat 'mvn clean install'
             }
         }
         
