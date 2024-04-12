@@ -3,7 +3,7 @@ package com.example;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {5, 3, 7, 2, 1, 8, 4};
+        int[] arr = {5, 3, 1,2,4};
         bubbleSort(arr);
     }
 
